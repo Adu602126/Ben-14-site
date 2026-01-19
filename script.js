@@ -29,6 +29,24 @@ const aliens = [
         image: "assets/images/Upgrade.JPG",
         sound: "assets/sounds/Upgrade.mp3",
         desc: "A bio-mechanical lifeform that can'merge' with any technology, upgrading it into futurastic weapon far beyond its original design."
+    },
+    {
+        name: "Ghost Freak",
+        image: "assets/images/Ghostfreak.JPG",
+        sound: "assets/sounds/Ghostfreak.mp3",
+        desc: "An Ectonurite with the power of invisibility, intangibility, and terrifying energy beams."
+    },
+    {
+        name: "XLR8",
+        image: "assets/images/XLR8.JPG",
+        sound: "assets/sounds/XLR8.mp3",
+        desc: "A Kineceleran from the planet Kinet. He can mainpulate friciton to reach speeds over 500 mph in seconds."
+    },
+    {
+        name: "Ripjaws",
+        image: "assets/images/Ripjaws.JPG",
+        sound: "assets/sounds/Ripjaws.mp3",
+        desc: "A Piscciss Volann who is a master of underwater combat, featuring powerful jaws and razor-sharp claws."
     }
     // Add more aliens here by copying the block above!
 ];
@@ -81,5 +99,6 @@ aliens.forEach(alien => {
     grid.appendChild(card);
 
 });
+
 
 
