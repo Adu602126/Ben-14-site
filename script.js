@@ -16,8 +16,7 @@ const aliens = [
         name: "Diamond Head",
         image: "assets\images\Diamondhead.JPG",
         sound: "assets\sounds\diamond head.mp3",
-        desc: "A Prtrosapien with a body made of indestructible organic crystals, capable of manipulating his
-limbs int sharp blades or firing diamond shards ."
+        desc: "A Prtrosapien with a body made of indestructible organic crystals."
     },
     {
         name: "Chromastone",
@@ -80,4 +79,5 @@ aliens.forEach(alien => {
 
     // Add to grid
     grid.appendChild(card);
+
 });
