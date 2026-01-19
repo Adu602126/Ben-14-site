@@ -8,14 +8,14 @@ const aliens = [
     },
     {
         name: "Four Arms",
-        image: "assets\images\Four arms.JPG", // Make sure file name matches exactly!
-        sound: "assets\sounds\Four arms.mp3",
+        image: "assets\images\Fourarms.JPG", // Make sure file name matches exactly!
+        sound: "assets\sounds\Fourarms.mp3",
         desc: "Possesses incredible strength and four muscular arms."
     },
     {
         name: "Diamond Head",
         image: "assets\images\Diamondhead.JPG",
-        sound: "assets\sounds\diamond head.mp3",
+        sound: "assets\sounds\Diamond head.mp3",
         desc: "A Prtrosapien with a body made of indestructible organic crystals."
     },
     {
@@ -81,3 +81,4 @@ aliens.forEach(alien => {
     grid.appendChild(card);
 
 });
+
