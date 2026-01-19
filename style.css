@@ -1,0 +1,71 @@
+body {
+    background-color: #050505;
+    color: #00ff00; /* Omnitrix Green */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    background: #00ff00;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+button:hover {
+    background: #ffffff;
+    box-shadow: 0 0 25px #00ff00;
+}
+
+.monitor {
+    border: 2px solid #00ff00;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    background: #001100;
+    box-shadow: inset 0 0 20px #00ff00;
+    min-height: 200px;
+}
+
+#alien-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #00ff00;
+    border-radius: 50%;
+}
+
+.alien-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.alien-card {
+    border: 1px solid #004400;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+    transition: 0.3s;
+}
+
+.alien-card:hover {
+    background-color: #002200;
+    border-color: #00ff00;
+    transform: scale(1.1);
+}
+
+.alien-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben 10 Alien Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>OMNITRIX DATABASE</h1>
+        <button id="start-btn">TAP TO ACTIVATE OMNITRIX</button>
+    </header>
+
+    <div class="container" id="main-content" style="display:none;">
+        
+        <div class="monitor">
+            <h2 id="alien-name">Select an Alien</h2>
+            <img id="alien-img" src="" alt="Alien Preview" style="display:none;">
+            <p id="alien-desc">Data not loaded...</p>
+        </div>
+
+        <div class="alien-grid" id="alien-grid">
+            </div>
+
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="assets\sounds\Ben 10 Alien Force.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sfx-player"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
