@@ -2,32 +2,32 @@
 const aliens = [
     {
         name: "Heatblast",
-        image: "assets\images\Heatblast.JPG",
-        sound: "assets\sounds\Heatblast.mp3",
+        image: "assets/images/Heatblast.JPG",
+        sound: "assets/sounds/Heatblast.mp3",
         desc: "A magma-based lifeform that can control fire."
     },
     {
         name: "Four Arms",
-        image: "assets\images\Fourarms.JPG", // Make sure file name matches exactly!
-        sound: "assets\sounds\Fourarms.mp3",
+        image: "assets/images/Fourarms.JPG", // Make sure file name matches exactly!
+        sound: "assets/sounds/Fourarms.mp3",
         desc: "Possesses incredible strength and four muscular arms."
     },
     {
         name: "Diamond Head",
-        image: "assets\images\Diamondhead.JPG",
-        sound: "assets\sounds\Diamond head.mp3",
+        image: "assets/images/Diamondhead.JPG",
+        sound: "assets/sounds/Diamondhead.mp3",
         desc: "A Prtrosapien with a body made of indestructible organic crystals."
     },
     {
         name: "Chromastone",
-        image: "assets\images\Chromastone.JPG",
-        sound: "assets\sounds\Chromastone.mp3",
+        image: "assets/images/Chromastone.JPG",
+        sound: "assets/sounds/Chromastone.mp3",
         desc: "A living crystal alien thaat can absorb energy and multi-coloured lasers, then blast them back with ten times the power."
     },
     {
         name: "Upgrade",
-        image: "assets\images\Upgrade.JPG",
-        sound: "assets\sounds\Upgrade.mp3",
+        image: "assets/images/Upgrade.JPG",
+        sound: "assets/sounds/Upgrade.mp3",
         desc: "A bio-mechanical lifeform that can'merge' with any technology, upgrading it into futurastic weapon far beyond its original design."
     }
     // Add more aliens here by copying the block above!
@@ -81,4 +81,5 @@ aliens.forEach(alien => {
     grid.appendChild(card);
 
 });
+
 
